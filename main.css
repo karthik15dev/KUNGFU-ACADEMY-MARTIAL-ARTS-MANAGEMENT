@@ -1,0 +1,225 @@
+
+html {
+	width: calc(100vw - (100vw - 100%));
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.tablink {
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	width: 12.5vw;
+	font-size: 16px;
+	font-weight: 900;
+    border: none;
+    outline: none;
+    padding: 16px 0px;
+	list-style: none; margin: 0;
+	background-color: #E6C390;
+	
+}
+
+.tabs {
+	margin-left: 0;
+	margin-right: 0;
+	border: none;
+	font-size: 0;
+	display: inline-block;
+	padding: 0;
+    list-style-type: none;
+	
+}
+
+
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #C0925D;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    display:block;
+    padding: 4vh;
+    text-align: center;
+	background-color: #918F94;
+}
+
+.headtable {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin:0; 
+  padding:0;
+}
+
+.nopadding {
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	
+}
+
+.smalladd{
+	
+	width:100%;
+}
+
+.trhandler {
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color: white;
+}
+
+.regtext {
+	color: black;
+    
+}
+
+.regfield {
+	padding: 12px 16px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+.nomargintd {
+	margin:0; 
+	padding:0;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+
+li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+
+.thirdlayer{
+	-webkit-box-shadow: -10px 0px 10px #000000,10px 0px 10px #000000;
+	   -moz-box-shadow: -10px 0px 10px #000000,10px 0px 10px #000000;
+	        box-shadow: -10px 0px 10px #000000,10px 0px 10px #000000;
+	
+	overflow: hidden;
+}
+.col-md-12.hoverbox{
+	border-radius: 15px;
+	background-color:#ffffff;
+	padding-top:5%;
+	margin-bottom:10px;
+	-webkit-box-shadow: 0 10px 6px -6px  #000000;
+	   -moz-box-shadow: 0 10px 6px -6px  #000000;
+	        box-shadow: 0 10px 6px -6px #000000;
+}
+
+.img-rounded{
+	width: 85%;
+	height: 30%;
+}
+
+.products-container{
+	margin-top: 10vh;
+	text-align:center;
+	position: relative;
+}
+
+div.hoverbox:hover{
+	background-color: gray;
+	cursor: pointer;
+}
+
+
+.productbox {
+	margin-top: 20px;
+}
+
+.ptitle {
+    font-weight:bold;
+	padding:5px 0 5px 0;
+	font-size: 40;
+}
+
+.pprice {
+	border-top:1px solid #dadada;
+	padding-top:5px;
+	margin-bottom: 15px;
+}
+
+.prtext {
+	
+	font-weight:bold;
+	font-size:1.7em;
+}
+
+#test{
+}
+
+
+#overlay{
+    top: 0px; 
+    left: 0px; 
+	width: 100vw; 
+    height: 100vh; 
+    background-color: #000; 
+    opacity: 0.8;
+    filter: alpha(opacity = 70);
+    display: none;
+    z-index: 50;
+	position: fixed; 
+    
+}
+
+.productoverlay{
+	background-color: white;
+    display: none;
+    overflow: hidden;
+	z-index: 52;
+	position: fixed; 
+	width: 40vw;
+	height: 50vh;
+    top: 25vh;
+	left: 30vw;
+	cursor: pointer;
+	border-radius: 35px;
+}
+
+
+
+/*more css testing nonsense*/
+.customrow{width:100%;margin-left:-15px;padding:2px;padding-left:15px;padding-right:15px;background:#f8f9f9}
+.product-photo-detailed{display:inline-block; text-align: center; overflow:hidden; max-width: 40%; max-height: 60%; margin-top:2%; border-radius: 15px; }
+.menu-items{list-style-type:none;font-size:11px;display:inline-flex;margin-bottom:0;margin-top:20px}
+.btn-success{border-radius:15px;}
+
+
+.title-price{margin-top:10px;margin-bottom:0;color:black}
+.btn-minus{cursor:pointer;font-size:8px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-right:0;}
+.btn-plus{cursor:pointer;font-size:8px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-left:0;}
+div.customrow > div {width:100%;display:inline-flex;}
+div.customrow > div > input {margin:0;padding-left:5px;font-size:10px;padding-right:5px;max-width:18%;text-align:center;} 
+.customrow{width:104%;}
+.menu-items{padding-left:0;}
+
+
+
+
